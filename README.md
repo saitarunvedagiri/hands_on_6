@@ -1,4 +1,4 @@
-# Music Streaming Analysis Using Spark Structured APIs
+# Hands-on L6: Spark Structured API
 
 **Name:** *Sai Tarun Vedagiri*  
 **Student ID:** *801421332*  
