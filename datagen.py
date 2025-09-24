@@ -41,7 +41,6 @@ def generate(out_dir="inputs", num_songs=80, num_users=120, num_listens=600):
         writer = csv.DictWriter(f, fieldnames=["user_id","song_id","timestamp","duration_sec"])
         writer.writeheader()
         writer.writerows(listens)
-
 if __name__ == "__main__":
     import os, argparse
     parser = argparse.ArgumentParser()
