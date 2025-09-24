@@ -1,5 +1,8 @@
 # Music Streaming Analysis Using Spark Structured APIs
 
+**Name:** *Sai Tarun Vedagiri*  
+**Student ID:** *801421332*  
+
 ## Overview
 This project analyzes user listening behavior and music trends on a fictional music streaming platform using **Spark Structured APIs**. The analysis provides insights into:
 - User favorite genres
@@ -59,7 +62,7 @@ outputs/
 ### 1. Find each user’s favorite genre  
 **Output folder**: `outputs/user_favorite_genres/`  
 
-Preview:
+Result:
 | user_id   | genre      |   plays |
 |:----------|:-----------|--------:|
 | U0001     | R&B        |       2 |
@@ -73,7 +76,7 @@ Preview:
 ### 2. Calculate the average listen time per song  
 **Output folder**: `outputs/avg_listen_time_per_song/`  
 
-Preview:
+Result:
 | song_id   |   avg_duration_sec | title   | artist    | genre      |
 |:----------|-------------------:|:--------|:----------|:-----------|
 | S0001     |            125.167 | Song 1  | Artist 21 | Rock       |
@@ -87,7 +90,7 @@ Preview:
 ### 3. Compute genre loyalty score for each user  
 **Output folder**: `outputs/genre_loyalty_scores/`  
 
-Preview:
+Result:
 | user_id   |   total_plays | favorite_genre   |   fav_genre_plays |   genre_loyalty_score |
 |:----------|--------------:|:-----------------|------------------:|----------------------:|
 | U0001     |             4 | R&B              |                 2 |              0.5      |
@@ -101,7 +104,7 @@ Preview:
 ### 4. Identify night owl users (12 AM – 5 AM)  
 **Output folder**: `outputs/night_owl_users/`  
 
-Preview:
+Result:
 | user_id   |   night_plays |   total_plays |   night_proportion |
 |:----------|--------------:|--------------:|-------------------:|
 | U0005     |             4 |             9 |           0.444444 |
