@@ -13,7 +13,6 @@ Usage:
 """
 import argparse
 from pyspark.sql import SparkSession, functions as F, Window
-
 def run(listening, songs, out):
     spark = SparkSession.builder.appName("H6_Music_Analysis").getOrCreate()
     ll = spark.read.option("header",True).option("inferSchema",True).csv(listening)
